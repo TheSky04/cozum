@@ -11,8 +11,7 @@ const resources = {
       Products: "Ürünlerimiz",
       Production: "Üretim",
       FooterTitle: "Ürünlerimiz",
-      FooterLeftText:
-        "Berko ambalaj olarak, markaların kendilerini en iyi şekilde ifade edebilmeleri için özel ambalaj malzemeleri üretiyoruz.",
+      FooterLeftText: "Çözüm Teknik Servis olarak, evinizdeki beyaz eşya, klima ve elektronik cihazların sorunsuz çalışması için hızlı, güvenilir ve garantili teknik servis hizmetleri sunuyoruz. Müşteri memnuniyetini ön planda tutarak, her marka ve modele özel onarım çözümleriyle hayatınızı kolaylaştırıyoruz.",
       PackagingMaterialsTitle: "Ambalaj Malzemeleri",
       PackagingMaterialsText:
         "Ambalaj malzemelerinde uygun fiyat ve kaliteli ürünler. Koli bandı,Maskeleme bandı,Çifttaraflı bant çeşitleri,Streç,Meto ve Moteks etiket çeşitleri.",

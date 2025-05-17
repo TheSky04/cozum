@@ -1,15 +1,9 @@
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageButtons from "./LanguageButtons";
 import { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaInstagram,
-  FaFacebook,
-  FaMapMarkerAlt,
-} from "react-icons/fa";
-import BerkoLogo from "../assets/berko-white-nobackground.png";
+import {FaBars, FaTimes,FaMapMarkerAlt} from "react-icons/fa";
+import cozumLogo from "../assets/machine/cozumLogo.png";
 import { FiMail } from "react-icons/fi";
 import { configs } from "../config";
 
@@ -47,7 +41,7 @@ function Navbar({ isMobile }) {
       </div>
       <nav className="nav">
         <div className="navLogo">
-          <img src={BerkoLogo} alt="berko logo" />
+          <img src={cozumLogo} alt="berko logo" />
         </div>
         <div className="navLeft">
           <NavLink

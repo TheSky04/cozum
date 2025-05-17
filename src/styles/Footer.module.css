@@ -1,12 +1,12 @@
 .footer {
-  background-color: #101d2c;
+  background-color :#e9ecef;
   padding: 5rem;
   font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  color: #aaa;
+  color: #212529;
 }
 
 .footerIconHover:hover {
@@ -17,14 +17,14 @@
 
 .footerTitle {
   font-size: 2.5rem;
-  color: #fff;
+  color: #212529;
   margin-bottom: 2rem;
 }
 
 .footerLeft {
   font-size: 2rem;
   margin-bottom: 2rem;
-  max-width: 50rem;
+  max-width: 70rem;
 }
 
 .footerLeft img {
@@ -35,7 +35,7 @@
   display: flex;
   gap: 1rem;
   align-items: center;
-  color: #fff;
+  color: #212529;
 }
 
 .footerLeftText {
