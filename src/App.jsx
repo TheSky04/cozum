@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import AppLayout from "./ui/AppLayout";
 import NotFound from "./pages/NotFound";
 import { useState, useEffect } from "react";
-import Survey from "./pages/Survey";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -24,7 +23,6 @@ function App() {
         { path: "/", element: <Home isMobile={isMobile} /> },
         { path: "/about", element: <About /> },
         { path: "/contact", element: <Contact /> },
-        { path: "/survey", element: <Survey /> },
       ],
     },
   ]);

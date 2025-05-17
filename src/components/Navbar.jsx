@@ -71,13 +71,6 @@ function Navbar({ isMobile }) {
           >
             {t("Contact")}
           </NavLink>
-          <NavLink
-            to="/survey"
-            className={({ isActive }) => (isActive ? "active" : "navLink")}
-            onClick={handleMenuToggle}
-          >
-            {t("Survey")}
-          </NavLink>
           {isMobile && <LanguageButtons />}
         </div>
 
