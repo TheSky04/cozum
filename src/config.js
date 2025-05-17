@@ -8,5 +8,4 @@ export const configs = {
   facebookAdress:
     "https://www.facebook.com/profile.php?id=61555620570323&mibextid=ZbWKwL",
   position: [41.0447951,28.8796295],
-  randomMusic: true,
 };
