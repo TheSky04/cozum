@@ -58,13 +58,6 @@ function Navbar({ isMobile }) {
             {t("Home")}
           </NavLink>
           <NavLink
-            to="/products"
-            className={({ isActive }) => (isActive ? "active" : "navLink")}
-            onClick={handleMenuToggle}
-          >
-            {t("Products")}
-          </NavLink>
-          <NavLink
             to="/about"
             className={({ isActive }) => (isActive ? "active" : "navLink")}
             onClick={handleMenuToggle}
