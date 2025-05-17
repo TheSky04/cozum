@@ -59,6 +59,12 @@
   font-size: 4rem;
 }
 
+.aboutText {
+  line-height:1.5;
+  white-space:pre-line;
+  font-size: 1.6rem !important;
+}
+
 @media only screen and (max-width: 1340px) {
   .aboutTopContainer img {
     order: -1;

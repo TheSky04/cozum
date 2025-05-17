@@ -1,13 +1,12 @@
 export const configs = {
   sliderDelay: 2,
-  whatsappNumber: "905320127185",
-  contactWhatsappNumber: "0532 012 71 85",
-  email: "satis@berkoambalaj.com",
-  email2: "info@berkoambalaj.com",
-  address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
+  whatsappNumber: "90532164750",
+  contactWhatsappNumber: "0535 216 47 50",
+  email: "furkan.bas@gmail.com",
+  address: "Fevzi çakmak mahallesi 1127. sokak No:2/B Esenler/İstanbul",
   instagramAdress: "https://www.instagram.com/berkoambalaj/",
   facebookAdress:
     "https://www.facebook.com/profile.php?id=61555620570323&mibextid=ZbWKwL",
-  position: [41.0710832, 28.8731577],
+  position: [41.0447951,28.8796295],
   randomMusic: true,
 };

@@ -91,13 +91,7 @@ function Footer() {
           <FaPhone size={32} color="white" />
           <div className={styles.footerRightPhoneNumbers}>
             <p>{t("PhoneNumber1")}</p>
-            <p>{t("PhoneNumber2")}</p>
-            <p>{t("PhoneNumber3")}</p>
           </div>
-        </div>
-        <div className={styles.footerRightIcon}>
-          <MdOutlineMail size={32} color="white" />
-          <p>{configs.email2}</p>
         </div>
       </div>
     </footer>

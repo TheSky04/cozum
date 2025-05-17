@@ -157,12 +157,6 @@ function ContactForm({ img = true }) {
                 <h3>{t("ContactInformation1")}</h3>
                 <div className={styles.contactText}>
                   <p>
-                    {t("Phone")}: {t("PhoneNumber1")}
-                  </p>
-                  <p>
-                    {t("Phone")}: {t("PhoneNumber2")}
-                  </p>
-                  <p>
                     {t("Whatsapp")}: {configs.contactWhatsappNumber}
                   </p>
                 </div>
@@ -188,7 +182,6 @@ function ContactForm({ img = true }) {
               <div className={styles.contact}>
                 <h3>{t("ContactInformation3")}</h3>
                 <div className={styles.contactText}>
-                  <p>{configs.email2}</p>
                   <p>{configs.email}</p>
                 </div>
               </div>

@@ -3,6 +3,179 @@ import { initReactI18next } from "react-i18next";
 import { configs } from "./config";
 
 const resources = {
+  tr: {
+    translation: {
+      About: "Hakkımızda",
+      Home: "Ana Sayfa",
+      Contact: "İletişim",
+      Products: "Ürünlerimiz",
+      Production: "Üretim",
+      FooterTitle: "Ürünlerimiz",
+      FooterLeftText:
+        "Berko ambalaj olarak, markaların kendilerini en iyi şekilde ifade edebilmeleri için özel ambalaj malzemeleri üretiyoruz.",
+      PackagingMaterialsTitle: "Ambalaj Malzemeleri",
+      PackagingMaterialsText:
+        "Ambalaj malzemelerinde uygun fiyat ve kaliteli ürünler. Koli bandı,Maskeleme bandı,Çifttaraflı bant çeşitleri,Streç,Meto ve Moteks etiket çeşitleri.",
+      TextileConsumablesTitle: "Tekstil Sarf Malzemeleri",
+      TextileConsumablesText:
+        "Hazır giyim üretiminde ihtiyaç duyulan tüm yardımcı malzemeleri temin edebilirsiniz. Uygun fiyat ve kalite garantisiyle.",
+      StationaryTitle: "Kırtasiye Ürünleri",
+      StationaryText:
+        "Kırtasiye ürünlerinde uygun fiyat. Tekstil kalemleri,Fotokopi kağıdı,Makas çeşitleri,Kroma karton,Pelür kağıdı,Klasör çeşitleri",
+      ContactInformation: "İletişim Bilgileri",
+      Address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
+      PhoneNumber1: "0535 216 47 50",
+      Email: "satis@berkoambalaj.com",
+      FAQ: "Sıkça Sorulan Sorular",
+      ExtraQuestion: "Herhangi bir sorunuz mu var ?",
+      Question1: "Teslimat süresi kaç gündür ?",
+      Question2:
+        "Kırtasiye ürünleriniz okula mı yoksa işyerine mi yöneliktir ?",
+      Question3: "Tekstil sarf malzemesi nedir ?",
+      Question4: "Kaç çeşit bant vardır ?",
+      Question5: "Maskeleme bandı kaç çeşittir ?",
+      Question6: "Baskılı bant için üretim adedi ve teslim tarihi nedir ?",
+
+      Question1Text:
+        "Standart ürünlerde aynı gün, özel ölçü veya baskılı ürünlerde ise maksimum 10 gün süreyle teslim ediyoruz.",
+      Question2Text:
+        "Kırtasiye ürünlerimiz hem okul hem de işyeri için kullanılabilir. Daha çok şirketlerin idari birimleri tarafından tercih edilsekte okullar ve özel eğitim kurumları tarafından da bu alanda yoğun ilgi görmekteyiz.",
+      Question3Text:
+        'Tekstil alanında üretim veya ürün geliştirmede kullanılan yardımcı malzemelerdir. Bizlerde bu yardımcı malzemeleri size tedarik etmekle görevli bir şirketiz. "Acaba bu ürün var mıdır ?" diye düşünmeyin bizi arayın :)',
+      Question4Text:
+        "Ambalaj bandı 4 yapıştırıcı çeşidi ile ayrılır. Hot-melt koli bandı: Özellikle koli ve kağıt yüzeyli ambalajlama işlemleri için verimli kullanım alanına sahiptir. Akrilik bant; naylon, polietilen ve metal yüzey uygulamalarında yüksek verim sağlar. Doğal kauçuk bant, bütün yüzeylerde ve hava koşullarında mükemmel kullanım sağlar. Silikon tutkallı bant, özellikle yüksek ısı derecesi gerektiren uygulamalarda kullanılır.",
+      Question5Text:
+        "Maskeleme bandı 3 farklı özelliğe sahip taşıyıcı yüzeye ve 5 farklı yapışkan özellikte amaca göre kullanılmaktadır. Yüzey olarak kağıt, polietilen ve polyester filmlerden üretilmektedir. Ekstra olarak da kumaş türevi mamüllerden de üretilmektedir. Yapışkan olarak akrilik, solvent akrilik, doğal kauçuk, hot melt ve uv silikon tutkal türevlerine sahiptir. Kullanım alanı, yüzey, ısı farklılıkları ve süresine göre çeşitlilik göstermektedir.",
+      Question6Text:
+        "Üretim tarihimiz en az 10 gün, baskı adedimiz ise en az 326 adettir.",
+      ContactUs: "Bize Ulaşın",
+      ContactForm: "İletişim Formu",
+      ContactInputNameSurname: "Adınız Soyadınız",
+      ContactInputMail: "Mail Adresiniz",
+      ContactInputTopic: "İletişim Konusu",
+      ContactInputPhone: "Telefon",
+      ContactInputMessage: "Mesajınız",
+      ContactButton: "Mesajı Gönder",
+      GalleryHomeTitle: "Galerimiz",
+      GalleryHomeSubTitle: "Ofisimizden Kareler",
+      ContactInformation1: "İletişim Bilgilerimiz",
+      ContactInformation2: "Adresimiz",
+      ContactInformation3: "Mail Adresimiz",
+      Phone: "Telefon",
+      Whatsapp: "Whatsapp",
+      mapText: "Konumumuz",
+      mapTitle: "Neredeyiz ?",
+      WeAreHereText: "Buradayız !",
+      AboutMainTitle: "Ne tamiri yapıyoruz ?",
+      AboutSubTitle: "Hakkımızda",
+      AboutTitle1: "Buzdolabı",
+      AboutTitle2:"Çamaşır Makinesi",
+      AboutTitle3:"Bulaşık Makinesi",
+      AboutTitle4: "Klima",
+      AboutTitle5:"Fırın",
+      AboutTitle6:"Kurutma Makinesi",
+      AboutText1:
+        "Buzdolabınız soğutmuyor mu, ses mi yapıyor ya da su mu akıtıyor?\nÇözüm Beyaz Eşya Teknik Servis olarak, her marka ve model buzdolabınız için hızlı, güvenilir ve uygun fiyatlı tamir hizmeti sunuyoruz.\nAlanında uzman teknisyenlerimiz, arızanızı yerinde tespit ederek en kısa sürede çözüm üretir.\n\nBuzdolabı Sorunları:\n- Gaz kaçağı ve motor arızaları\n- Termostat ve fan problemleri\n- Elektriksel ve mekanik arızalar\n\nMüşteri memnuniyetini ön planda tutan servis anlayışımızla, buzdolabı arızalarınızı dert olmaktan çıkarıyoruz.\nHemen bizimle iletişime geçin, siz de kaliteli ve garantili teknik servis hizmetimizin farkını yaşayın!",
+      AboutText2:
+        "Çamaşır makineniz su mu almıyor, çalışmıyor ya da gürültülü mü çalışıyor?\nÇözüm Beyaz Eşya Teknik Servis olarak, tüm marka ve modeller için hızlı ve güvenilir çamaşır makinesi tamiri hizmeti sunuyoruz.\nUzman teknisyenlerimiz, arızaları yerinde tespit ederek en kısa sürede kalıcı çözümler üretir.\n\nÇamaşır Makinesi Sorunları:\n- Su alma ve boşaltma problemleri\n- Motor ve kayış arızaları\n- Elektronik kart sorunları\n- Yıkama sırasında ses yapma ve titreşim\n- Kapak kilidi ve sensör arızaları\n\nMüşteri memnuniyetini ön planda tutan servis anlayışımızla, çamaşır makinesi arızalarınızı vakit kaybetmeden çözüyoruz.\nHemen bize ulaşın, garantili ve uygun fiyatlı servis hizmetimizle tanışın!",
+      AboutText3:
+        "Bulaşık makineniz su mu boşaltmıyor, iyi yıkamıyor ya da sesli mi çalışıyor?\nÇözüm Beyaz Eşya Teknik Servis olarak, tüm marka ve modeller için hızlı, garantili ve uygun fiyatlı bulaşık makinesi tamiri hizmeti sunuyoruz.\nDeneyimli teknisyenlerimiz, arızayı yerinde tespit eder ve en kısa sürede çözüm üretir.\n\nBulaşık Makinesi Sorunları:\n- Su alma ve tahliye problemleri\n- Isıtma ve kurutma arızaları\n- Pervane ve pompa sorunları\n- Elektronik kart ve sensör hataları\n- Kapak kilidi ve conta problemleri\n\nMüşteri memnuniyetine önem veren anlayışımızla, bulaşık makinesi sorunlarınızı zahmetsizce çözüyoruz.\nHemen bize ulaşın, profesyonel ve garantili servis hizmetimizle tanışın!",
+      AboutText4:
+        "Klima yeterince soğutmuyor mu, su mu damlatıyor ya da çalışmıyor mu?\nÇözüm Beyaz Eşya Teknik Servis olarak, split, salon ve merkezi sistem klimalarınız için hızlı ve güvenilir tamir hizmeti sunuyoruz.\nUzman teknisyenlerimiz, arızaları yerinde tespit eder ve en kısa sürede çözüm üretir.\n\nKlima Arızaları:\n- Soğutmama ve ısıtmama problemleri\n- Gaz kaçağı ve gaz eksikliği\n- Fan motoru ve iç ünite arızaları\n- Elektronik kart ve sensör sorunları\n- Su akıtma ve drenaj problemleri\n\nMüşteri memnuniyetini esas alan servis anlayışımızla, klimanızdaki tüm teknik sorunları profesyonelce çözüyoruz.\nHemen bize ulaşın, kaliteli ve garantili klima servis hizmetimizin farkını yaşayın!",
+      AboutText5:
+        "Fırınınız ısınmıyor mu, yemeği eşit pişirmiyor ya da hiç çalışmıyor mu?\nÇözüm Beyaz Eşya Teknik Servis olarak, ankastre, solo ve set üstü fırınlarınız için güvenilir, hızlı ve ekonomik tamir hizmeti sunuyoruz.\nDeneyimli teknisyenlerimiz arızayı yerinde tespit ederek, kısa sürede kalıcı çözümler sağlar.\n\nFırın Arızaları:\n- Isıtma ve rezistans problemleri\n- Termostat ve zamanlayıcı arızaları\n- Fan motoru ve iç aksam sorunları\n- Dijital panel ve elektronik kart arızaları\n- Kapak contası ve menteşe problemleri\n\nMüşteri memnuniyetini ön planda tutan servis anlayışımızla, fırın arızalarınızı zahmetsizce çözüyoruz.\nHemen bizimle iletişime geçin, kaliteli ve garantili teknik servis ayrıcalığımızdan yararlanın!",
+      AboutText6:
+        "Kurutma makineniz çalışmıyor mu, yeterince kurutmuyor ya da aşırı ses mi yapıyor?\nÇözüm Beyaz Eşya Teknik Servis olarak, tüm marka ve model kurutma makineleri için hızlı, güvenilir ve uygun fiyatlı tamir hizmeti sunuyoruz.\nUzman teknisyenlerimiz arızayı yerinde tespit eder ve en kısa sürede çözüm üretir.\n\nKurutma Makinesi Sorunları:\n- Isıtma problemleri\n- Tambur dönmeme arızaları\n- Kapak sensörü ve kilit sorunları\n- Nem sensörü ve filtre tıkanıklıkları\n- Elektriksel ve mekanik arızalar\n\nMüşteri memnuniyetini esas alan servis anlayışımızla, kurutma makinenizdeki tüm arızaları hızlıca çözüyoruz.\nHemen bizimle iletişime geçin, kaliteli ve garantili servis hizmetimizin farkını yaşayın!",
+      ProductsSubTitle: "Ürünlerimiz",
+      ProductsMainTitle: "Ne Üretiyoruz ?",
+      Stationary: "Kırtasiye Malzemeleri",
+      TextileConsumableProducts: "Tekstil Sarf Malzemeleri",
+      packagingMaterials: "Ambalaj Malzemeleri",
+      ProductStationaryText:
+        "Kırtasiye malzemelerinde kalitenin adresi! Yenilikçi tasarımlarımızla öğrencilerden profesyonellere kadar herkes için ideal ürünler sunuyoruz. Siz de kaliteli ve dayanıklı kırtasiye ürünleriyle işlerinizi kolaylaştırın.",
+      ProductTextileConsumableText:
+        "Tekstil sektöründe mükemmeliyet arayışında olanlar için en kaliteli sarf malzemeleri burada! İster büyük bir atölye sahibi olun, isterse evde projeler üretin, ihtiyacınız olan her şeyi bizde bulacaksınız. Kalite ve çeşitlilik için bizi tercih edin.",
+      ProductPackagingMaterialsText:
+        "Ürünlerinizi güvenle saklamak ve mükemmel sunumlar için doğru adres! Ambalaj malzemelerimizle hem estetik hem de fonksiyonel çözümler sunuyoruz. Ürünleriniz için en uygun ambalajı bizimle bulun.",
+      Discover: " Keşfetmek için Tıklayın !",
+      StationaryPageMainText:
+        "Hayatımızda eğitimden iş yaşamına, günlük rutinden özel projelere kadar kırtasiye malzemelerine ihtiyaç duyarız. Bu araçlar, düşüncelerimizi ifade etmekten, fikirlerimizi organize etmeye kadar birçok işlevi üstlenir. Ancak, doğru araçların yanı sıra kalite, hız ve güven de önemlidir. Biz, kaliteli ürünlerimizle, projelerinizin aksamadan tamamlanmasına yardımcı olurken, hızlı teslimatımızla da zamanınızı daha etkili kullanmanızı sağlıyoruz. Geniş ürün yelpazemizle ihtiyaçlarınıza uygun çözümler sunuyoruz. Kalite ve güvenilirlik arayışınızda, yanınızdayız!",
+      StationaryPageSubTitle1:
+        "Ürün Kalitesi: Kaliteli Kırtasiye Malzemeleriyle Başarınızı Garantileyin!",
+      StationaryPageSubText1:
+        "Kırtasiye malzemeleri arasında sadece en iyisini seçiyoruz. Her bir ürünümüz, uzun ömürlü ve kullanışlı olması için özenle seçilmiş malzemelerle üretilmektedir. Kalitemize güvenin ve işlerinizi en iyi ekipmanlarla tamamlayın.",
+      StationaryPageSubTitle2:
+        "Hızlı Teslimat: Zamanında Teslimatla İşlerinizi Aksatmayın!",
+      StationaryPageSubText2:
+        "Sipariş verdiğiniz andan itibaren, kırtasiye malzemeleriniz en hızlı şekilde paketlenip kargoya verilir. Hızlı teslimat anlayışımız sayesinde, işlerinizdeki aksaklıkları önleyin ve projelerinizi zamanında tamamlayın.",
+      StationaryPageSubTitle3:
+        "Güvenilirlik: Güvendiğiniz Kırtasiye Markası: Berko!",
+      StationaryPageSubText3:
+        "Müşteri memnuniyeti bizim için her şeyden önemlidir. Güvenilir bir alışveriş deneyimi için, kırtasiye ihtiyaçlarınızı karşılamak üzere buradayız. Siz de binlerce memnun müşterimiz arasına katılın ve alışverişin keyfini çıkarın.",
+      StationaryPageSubTitle4:
+        "Geniş Ürün Yelpazesi: Her İhtiyaca Uygun Kırtasiye Malzemeleri",
+      StationaryPageSubText4:
+        "Ofis, okul ya da ev için ihtiyaç duyabileceğiniz her türlü kırtasiye malzemesi burada! Kalemlerden defterlere, dosyalardan etiketlere kadar geniş ürün yelpazemizle, tüm kırtasiye ihtiyaçlarınızı karşılıyoruz.",
+      StationaryGalleryTitle: "Kırtasiye Ürünlerimiz",
+      StationaryGallerySubTitle: "Ürünlerimiz",
+      SuccessMessage: "Mesajını başarıyla aldık!",
+      ErrorMessage: "Bir hata oluştu.",
+      WarningMessage: "Lütfen tüm alanları doldurunuz.",
+      packageMaterialsTitle: "Ambalaj Malzemeleri",
+      packagingMaterialText:
+        "Mükemmel ürünlerinizin değerini en üst düzeye çıkarmak ve müşterilerinize güven vermek için tasarlanan ambalaj malzemelerimiz, güçlü, dayanıklı ve estetik çözümler sunar. Şeffaf folyolardan özel baskılı kutulara kadar geniş bir ürün yelpazemizle, her türlü ürününüz için uygun ambalajı sağlıyoruz.",
+      packageMaterialsTitle2: "Neden Biz?",
+      packageMaterialsText21:
+        "Çeşitlilik: Müşterilerinizin beklentilerini karşılamak için geniş bir ambalaj malzeme yelpazesi.",
+      packageMaterialsText22:
+        "Kalite: Dayanıklı malzemelerle üretilmiş, ürün güvenliği ve korumasını ön planda tutan çözümler.",
+      packageMaterialsText23:
+        "Özelleştirme: Markanızı öne çıkaran özel baskı ve tasarım seçenekleri.",
+      packageMaterialsText24:
+        "Hızlı Teslimat: Siparişinizi hızlı ve güvenli bir şekilde kapınıza getiriyoruz.",
+      packageMaterialsTitle3: "Nasıl Sipariş Verebilirim?",
+      packageMaterialsText3:
+        "İhtiyacınıza uygun ambalaj malzemelerini seçin, özel tasarım veya baskı seçeneklerini belirleyin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
+      packageMaterialsTitle4: "Sizi Aramızda Görmek İsteriz!",
+      PackageGalleryTitle: "Ambalaj Ürünlerimiz",
+      textileTitle: "Tekstil sarf malzemeleri",
+      textileText:
+        "Berko, tekstil sarf malzemeleri konusunda uzmanlaşmış, çeşitli ve özelleştirilebilir çözümler sunan bir markadır. Her ürününüzü özel kılmak ve müşterilerinizi etkilemek için tasarlanmış ürünlerimiz, işinizi bir adım öne taşıyacak.",
+      textileTitle2: "Neden Biz?",
+      textileText21:
+        "Tekstil Odaklı Çözümler: Her türlü tekstil ürününüz için özel tasarlanmış çeşitli ambalaj ve sarf malzemeleri.",
+      textileText22:
+        "Yaratıcı Tasarımlar: Ürünlerinizi tanımlayan yaratıcı ve özelleştirilebilir ambalaj seçenekleri.",
+      textileText23:
+        "Çevre Dostu Malzemeler: Kaliteyi ve çevre dostu malzemeleri bir araya getirerek sürdürülebilir bir seçenek sunuyoruz.",
+      textileText24:
+        "Hızlı ve Esnek Hizmet: Siparişinizi istediğiniz gibi özelleştirin, hızlı ve esnek teslimatımızla zaman kaybetmeyin.",
+      textileTitle3: "Siparişinizi Nasıl Verebilirsiniz?",
+      textileText3:
+        "İhtiyacınıza uygun tekstil sarf malzemelerini seçin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
+      textileTitle4: "Bizimle İletişime Geçin!",
+      textileTitle5: "Hayalinizdeki Tekstili Keşfedin, Berko yardımcı olur!",
+      textileText5:
+        "Siz tasarlayın, biz koruyalım! Berko, tekstil dünyasındaki yaratıcılığınıza destek olmak ve ürünlerinizi bir adım öne çıkarmak için burada. Her dikiş, her kumaş parçası bir hikaye anlatır, biz de o hikayeye şıklık ve güven katarız.",
+      TextileGalleryTitle: "Tekstil Sarf Ürünlerimiz",
+      Survey: "Anket",
+      SurveyQuestion1: "1- Sitemizi görsel olarak yeterli buldunuz mu ?",
+      SurveyQuestion2:
+        "2- Sitemizdeki ürünlerin bilgilerini yeterli buldunuz mu ?",
+      SurveyQuestion3: "3- Aradığınız ürünlere ulaşabildiniz mi ?",
+      SurveyQuestion4: "4- Daha önce bizden sipariş verdiniz mi ?",
+      SurveyQuestion5: "5- Berko ambalaja kaç puan verirsiniz ?",
+      SurveyComment: "Yorumunuz",
+      SurveyAnswerYes: "Evet",
+      SurveyAnswerNo: "Hayır",
+      SurveyChoose: "Seçenek seçin",
+      SubmitForm: "Gönder",
+      SurveyText:
+        "Firmamızın hizmet kalitesini daha da artırmak ve siz değerli müşterilerimizin ihtiyaçlarına daha iyi cevap verebilmek adına, kısa bir anket düzenliyoruz. Bu anket, sizin deneyimlerinizi anlamamıza ve ürün ve hizmetlerimizi geliştirmemize yardımcı olacaktır.",
+      packageMaterialsText4: `${configs.contactWhatsappNumber} veya ${configs.email2} üzerinden bizimle iletişime geçin. Size en uygun ambalaj çözümlerini bulmamıza yardımcı olmaktan memnuniyet duyarız. İşinizi güçlendirmek ve ürünlerinizi güvenle teslim etmek için Berko yanınızda!`,
+      textileText4: `Herhangi bir sorunuz veya özel talebiniz mi var? ${configs.contactWhatsappNumber} veya ${configs.email2} ile bizimle iletişime geçin. Sizinle birlikte işinizi daha özel ve etkileyici kılmak için sabırsızlanıyoruz!`,
+    },
+  },
   en: {
     translation: {
       hello: "Hello World",
@@ -26,9 +199,7 @@ const resources = {
         "Affordable prices on stationery products. Textile pens, photocopy paper, scissors types, chrome cardboard, tissue paper, folder types",
       ContactInformation: "Contact Information",
       Address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
-      PhoneNumber1: "0532 012 7185",
-      PhoneNumber2: "0212 630 2904",
-      PhoneNumber3: "0212 630 2915",
+      PhoneNumber1: "0535 216 47 50",
       Email: "satis@berkoambalaj.com",
       FAQ: "Frequently Asking Questions",
       ExtraQuestion: "Do you have any questions ?",
@@ -73,7 +244,7 @@ const resources = {
       AboutSubTitle: "About Us",
       AboutTitle1:
         "We are Environmentally Friendly: A Vision to Protect Nature and the Future",
-      AboutTitle2: "We Support Recycling: Sustainable Production Concept",
+      AboutTitle2: "",
       AboutTitle3:
         "Stationery Supplies: Indispensable for the Business and Education World",
       AboutTitle4:
@@ -182,181 +353,6 @@ const resources = {
       We look forward to making your business more special and impressive together with you !`,
     },
   },
-  tr: {
-    translation: {
-      About: "Hakkımızda",
-      Home: "Ana Sayfa",
-      Contact: "İletişim",
-      Products: "Ürünlerimiz",
-      Production: "Üretim",
-      FooterTitle: "Ürünlerimiz",
-      FooterLeftText:
-        "Berko ambalaj olarak, markaların kendilerini en iyi şekilde ifade edebilmeleri için özel ambalaj malzemeleri üretiyoruz.",
-      PackagingMaterialsTitle: "Ambalaj Malzemeleri",
-      PackagingMaterialsText:
-        "Ambalaj malzemelerinde uygun fiyat ve kaliteli ürünler. Koli bandı,Maskeleme bandı,Çifttaraflı bant çeşitleri,Streç,Meto ve Moteks etiket çeşitleri.",
-      TextileConsumablesTitle: "Tekstil Sarf Malzemeleri",
-      TextileConsumablesText:
-        "Hazır giyim üretiminde ihtiyaç duyulan tüm yardımcı malzemeleri temin edebilirsiniz. Uygun fiyat ve kalite garantisiyle.",
-      StationaryTitle: "Kırtasiye Ürünleri",
-      StationaryText:
-        "Kırtasiye ürünlerinde uygun fiyat. Tekstil kalemleri,Fotokopi kağıdı,Makas çeşitleri,Kroma karton,Pelür kağıdı,Klasör çeşitleri",
-      ContactInformation: "İletişim Bilgileri",
-      Address: "Oruçreis Mah. Giyimkent 9.Sokak No:72/A Esenler/İstanbul",
-      PhoneNumber1: "0532 012 7185",
-      PhoneNumber2: "0212 630 2904",
-      PhoneNumber3: "0212 630 2915",
-      Email: "satis@berkoambalaj.com",
-      FAQ: "Sıkça Sorulan Sorular",
-      ExtraQuestion: "Herhangi bir sorunuz mu var ?",
-      Question1: "Teslimat süresi kaç gündür ?",
-      Question2:
-        "Kırtasiye ürünleriniz okula mı yoksa işyerine mi yöneliktir ?",
-      Question3: "Tekstil sarf malzemesi nedir ?",
-      Question4: "Kaç çeşit bant vardır ?",
-      Question5: "Maskeleme bandı kaç çeşittir ?",
-      Question6: "Baskılı bant için üretim adedi ve teslim tarihi nedir ?",
-
-      Question1Text:
-        "Standart ürünlerde aynı gün, özel ölçü veya baskılı ürünlerde ise maksimum 10 gün süreyle teslim ediyoruz.",
-      Question2Text:
-        "Kırtasiye ürünlerimiz hem okul hem de işyeri için kullanılabilir. Daha çok şirketlerin idari birimleri tarafından tercih edilsekte okullar ve özel eğitim kurumları tarafından da bu alanda yoğun ilgi görmekteyiz.",
-      Question3Text:
-        'Tekstil alanında üretim veya ürün geliştirmede kullanılan yardımcı malzemelerdir. Bizlerde bu yardımcı malzemeleri size tedarik etmekle görevli bir şirketiz. "Acaba bu ürün var mıdır ?" diye düşünmeyin bizi arayın :)',
-      Question4Text:
-        "Ambalaj bandı 4 yapıştırıcı çeşidi ile ayrılır. Hot-melt koli bandı: Özellikle koli ve kağıt yüzeyli ambalajlama işlemleri için verimli kullanım alanına sahiptir. Akrilik bant; naylon, polietilen ve metal yüzey uygulamalarında yüksek verim sağlar. Doğal kauçuk bant, bütün yüzeylerde ve hava koşullarında mükemmel kullanım sağlar. Silikon tutkallı bant, özellikle yüksek ısı derecesi gerektiren uygulamalarda kullanılır.",
-      Question5Text:
-        "Maskeleme bandı 3 farklı özelliğe sahip taşıyıcı yüzeye ve 5 farklı yapışkan özellikte amaca göre kullanılmaktadır. Yüzey olarak kağıt, polietilen ve polyester filmlerden üretilmektedir. Ekstra olarak da kumaş türevi mamüllerden de üretilmektedir. Yapışkan olarak akrilik, solvent akrilik, doğal kauçuk, hot melt ve uv silikon tutkal türevlerine sahiptir. Kullanım alanı, yüzey, ısı farklılıkları ve süresine göre çeşitlilik göstermektedir.",
-      Question6Text:
-        "Üretim tarihimiz en az 10 gün, baskı adedimiz ise en az 326 adettir.",
-      ContactUs: "Bize Ulaşın",
-      ContactForm: "İletişim Formu",
-      ContactInputNameSurname: "Adınız Soyadınız",
-      ContactInputMail: "Mail Adresiniz",
-      ContactInputTopic: "İletişim Konusu",
-      ContactInputPhone: "Telefon",
-      ContactInputMessage: "Mesajınız",
-      ContactButton: "Mesajı Gönder",
-      GalleryHomeTitle: "Galerimiz",
-      GalleryHomeSubTitle: "Ofisimizden Kareler",
-      ContactInformation1: "İletişim Bilgilerimiz",
-      ContactInformation2: "Adresimiz",
-      ContactInformation3: "Mail Adresimiz",
-      Phone: "Telefon",
-      Whatsapp: "Whatsapp",
-      mapText: "Konumumuz",
-      mapTitle: "Neredeyiz ?",
-      WeAreHereText: "Buradayız !",
-      AboutMainTitle: "Biz Kimiz ve Ne Üretiyoruz ? ",
-      AboutSubTitle: "Hakkımızda",
-      AboutTitle1: "Çevre Dostuyuz: Doğayı ve Geleceği Koruma Vizyonu",
-      AboutTitle2:
-        "Geri Dönüşümü Destekliyoruz: Sürdürülebilir Üretim Anlayışı",
-      AboutTitle3:
-        "Kırtasiye Malzemeleri: İş ve Eğitim Dünyasının Vazgeçilmezi",
-      AboutTitle4: "Ambalaj Malzemeleri: Ürünlerinizi Koruma ve Tanıtma Sanatı",
-      AboutTitle5:
-        "Tekstil Sarf Malzemeleri: Üretimin Kalitesini Artırma Yolculuğu",
-      AboutText1:
-        "Berko Ambalaj olarak, doğanın ve geleceğin korunmasına büyük bir önem veriyoruz. Çevresel etkimizi en aza indirgemek ve sürdürülebilir bir üretim süreciyle hareket etmek için çeşitli stratejiler ve uygulamalar geliştiriyoruz. Geri dönüşümü teşvik ederek, atıkların yeniden kullanılmasını sağlıyor ve doğaya verdiğimiz zararı en aza indirgemeyi hedefliyoruz.",
-      AboutText2:
-        "Geri dönüşüm, üretim süreçlerimizin merkezinde bulunan bir ilkedir. Atık yönetimi konusunda etkin çözümler geliştiriyor, kullanılmış malzemelerin yeniden işlenerek üretim süreçlerine kazandırılmasını sağlıyoruz. Bu sayede hem doğal kaynakları koruyor hem de ekonomiye katkı sağlıyoruz.",
-      AboutText3:
-        "Ofislerden okullara kadar geniş bir kullanıcı kitlesine hitap eden kırtasiye ürünlerimiz, fonksiyonelliği ve estetiği bir araya getiriyor. Günlük işlerinizi kolaylaştırmak için tasarlanan kırtasiye ürünlerimizle, ofisleriniz ve eğitim kurumlarınız için ihtiyaç duyduğunuz tüm sarf malzemelerini tek bir çatı altında bulabilirsiniz.",
-      AboutText4:
-        "Ürünlerinizin güvenliğini ve estetiğini korumak için tasarlanan ambalaj malzemelerimiz, sektörün ihtiyaçlarına uygun çözümler sunar. Farklı sektörlerden müşterilerimize özel ambalaj çözümleri üretiyor, ürünlerinizin hem güvenli hem de etkileyici bir şekilde tüketicilere sunulmasını sağlıyoruz.",
-      AboutText5:
-        "Tekstil sektörünün dinamik yapısına uygun sarf malzemelerimizle, üretimimizi daha verimli ve kaliteli hale getiriyoruz. Yüksek kaliteli ve dayanıklı malzemelerimizle, tekstil üretiminin her aşamasında ihtiyaç duyduğunuz ürünleri en uygun fiyatlarla sunuyoruz.",
-      ProductsSubTitle: "Ürünlerimiz",
-      ProductsMainTitle: "Ne Üretiyoruz ?",
-      Stationary: "Kırtasiye Malzemeleri",
-      TextileConsumableProducts: "Tekstil Sarf Malzemeleri",
-      packagingMaterials: "Ambalaj Malzemeleri",
-      ProductStationaryText:
-        "Kırtasiye malzemelerinde kalitenin adresi! Yenilikçi tasarımlarımızla öğrencilerden profesyonellere kadar herkes için ideal ürünler sunuyoruz. Siz de kaliteli ve dayanıklı kırtasiye ürünleriyle işlerinizi kolaylaştırın.",
-      ProductTextileConsumableText:
-        "Tekstil sektöründe mükemmeliyet arayışında olanlar için en kaliteli sarf malzemeleri burada! İster büyük bir atölye sahibi olun, isterse evde projeler üretin, ihtiyacınız olan her şeyi bizde bulacaksınız. Kalite ve çeşitlilik için bizi tercih edin.",
-      ProductPackagingMaterialsText:
-        "Ürünlerinizi güvenle saklamak ve mükemmel sunumlar için doğru adres! Ambalaj malzemelerimizle hem estetik hem de fonksiyonel çözümler sunuyoruz. Ürünleriniz için en uygun ambalajı bizimle bulun.",
-      Discover: " Keşfetmek için Tıklayın !",
-      StationaryPageMainText:
-        "Hayatımızda eğitimden iş yaşamına, günlük rutinden özel projelere kadar kırtasiye malzemelerine ihtiyaç duyarız. Bu araçlar, düşüncelerimizi ifade etmekten, fikirlerimizi organize etmeye kadar birçok işlevi üstlenir. Ancak, doğru araçların yanı sıra kalite, hız ve güven de önemlidir. Biz, kaliteli ürünlerimizle, projelerinizin aksamadan tamamlanmasına yardımcı olurken, hızlı teslimatımızla da zamanınızı daha etkili kullanmanızı sağlıyoruz. Geniş ürün yelpazemizle ihtiyaçlarınıza uygun çözümler sunuyoruz. Kalite ve güvenilirlik arayışınızda, yanınızdayız!",
-      StationaryPageSubTitle1:
-        "Ürün Kalitesi: Kaliteli Kırtasiye Malzemeleriyle Başarınızı Garantileyin!",
-      StationaryPageSubText1:
-        "Kırtasiye malzemeleri arasında sadece en iyisini seçiyoruz. Her bir ürünümüz, uzun ömürlü ve kullanışlı olması için özenle seçilmiş malzemelerle üretilmektedir. Kalitemize güvenin ve işlerinizi en iyi ekipmanlarla tamamlayın.",
-      StationaryPageSubTitle2:
-        "Hızlı Teslimat: Zamanında Teslimatla İşlerinizi Aksatmayın!",
-      StationaryPageSubText2:
-        "Sipariş verdiğiniz andan itibaren, kırtasiye malzemeleriniz en hızlı şekilde paketlenip kargoya verilir. Hızlı teslimat anlayışımız sayesinde, işlerinizdeki aksaklıkları önleyin ve projelerinizi zamanında tamamlayın.",
-      StationaryPageSubTitle3:
-        "Güvenilirlik: Güvendiğiniz Kırtasiye Markası: Berko!",
-      StationaryPageSubText3:
-        "Müşteri memnuniyeti bizim için her şeyden önemlidir. Güvenilir bir alışveriş deneyimi için, kırtasiye ihtiyaçlarınızı karşılamak üzere buradayız. Siz de binlerce memnun müşterimiz arasına katılın ve alışverişin keyfini çıkarın.",
-      StationaryPageSubTitle4:
-        "Geniş Ürün Yelpazesi: Her İhtiyaca Uygun Kırtasiye Malzemeleri",
-      StationaryPageSubText4:
-        "Ofis, okul ya da ev için ihtiyaç duyabileceğiniz her türlü kırtasiye malzemesi burada! Kalemlerden defterlere, dosyalardan etiketlere kadar geniş ürün yelpazemizle, tüm kırtasiye ihtiyaçlarınızı karşılıyoruz.",
-      StationaryGalleryTitle: "Kırtasiye Ürünlerimiz",
-      StationaryGallerySubTitle: "Ürünlerimiz",
-      SuccessMessage: "Mesajını başarıyla aldık!",
-      ErrorMessage: "Bir hata oluştu.",
-      WarningMessage: "Lütfen tüm alanları doldurunuz.",
-      packageMaterialsTitle: "Ambalaj Malzemeleri",
-      packagingMaterialText:
-        "Mükemmel ürünlerinizin değerini en üst düzeye çıkarmak ve müşterilerinize güven vermek için tasarlanan ambalaj malzemelerimiz, güçlü, dayanıklı ve estetik çözümler sunar. Şeffaf folyolardan özel baskılı kutulara kadar geniş bir ürün yelpazemizle, her türlü ürününüz için uygun ambalajı sağlıyoruz.",
-      packageMaterialsTitle2: "Neden Biz?",
-      packageMaterialsText21:
-        "Çeşitlilik: Müşterilerinizin beklentilerini karşılamak için geniş bir ambalaj malzeme yelpazesi.",
-      packageMaterialsText22:
-        "Kalite: Dayanıklı malzemelerle üretilmiş, ürün güvenliği ve korumasını ön planda tutan çözümler.",
-      packageMaterialsText23:
-        "Özelleştirme: Markanızı öne çıkaran özel baskı ve tasarım seçenekleri.",
-      packageMaterialsText24:
-        "Hızlı Teslimat: Siparişinizi hızlı ve güvenli bir şekilde kapınıza getiriyoruz.",
-      packageMaterialsTitle3: "Nasıl Sipariş Verebilirim?",
-      packageMaterialsText3:
-        "İhtiyacınıza uygun ambalaj malzemelerini seçin, özel tasarım veya baskı seçeneklerini belirleyin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
-      packageMaterialsTitle4: "Sizi Aramızda Görmek İsteriz!",
-      PackageGalleryTitle: "Ambalaj Ürünlerimiz",
-      textileTitle: "Tekstil sarf malzemeleri",
-      textileText:
-        "Berko, tekstil sarf malzemeleri konusunda uzmanlaşmış, çeşitli ve özelleştirilebilir çözümler sunan bir markadır. Her ürününüzü özel kılmak ve müşterilerinizi etkilemek için tasarlanmış ürünlerimiz, işinizi bir adım öne taşıyacak.",
-      textileTitle2: "Neden Biz?",
-      textileText21:
-        "Tekstil Odaklı Çözümler: Her türlü tekstil ürününüz için özel tasarlanmış çeşitli ambalaj ve sarf malzemeleri.",
-      textileText22:
-        "Yaratıcı Tasarımlar: Ürünlerinizi tanımlayan yaratıcı ve özelleştirilebilir ambalaj seçenekleri.",
-      textileText23:
-        "Çevre Dostu Malzemeler: Kaliteyi ve çevre dostu malzemeleri bir araya getirerek sürdürülebilir bir seçenek sunuyoruz.",
-      textileText24:
-        "Hızlı ve Esnek Hizmet: Siparişinizi istediğiniz gibi özelleştirin, hızlı ve esnek teslimatımızla zaman kaybetmeyin.",
-      textileTitle3: "Siparişinizi Nasıl Verebilirsiniz?",
-      textileText3:
-        "İhtiyacınıza uygun tekstil sarf malzemelerini seçin, sitemizde bulunan numaradan bizi arayın veya whatsapp üzerinden bizimle iletişime geçin. Hızlı ve güvenilir teslimatımız ile ürünlerinizin kapınıza gelmesini bekleyin.",
-      textileTitle4: "Bizimle İletişime Geçin!",
-      textileTitle5: "Hayalinizdeki Tekstili Keşfedin, Berko yardımcı olur!",
-      textileText5:
-        "Siz tasarlayın, biz koruyalım! Berko, tekstil dünyasındaki yaratıcılığınıza destek olmak ve ürünlerinizi bir adım öne çıkarmak için burada. Her dikiş, her kumaş parçası bir hikaye anlatır, biz de o hikayeye şıklık ve güven katarız.",
-      TextileGalleryTitle: "Tekstil Sarf Ürünlerimiz",
-      Survey: "Anket",
-      SurveyQuestion1: "1- Sitemizi görsel olarak yeterli buldunuz mu ?",
-      SurveyQuestion2:
-        "2- Sitemizdeki ürünlerin bilgilerini yeterli buldunuz mu ?",
-      SurveyQuestion3: "3- Aradığınız ürünlere ulaşabildiniz mi ?",
-      SurveyQuestion4: "4- Daha önce bizden sipariş verdiniz mi ?",
-      SurveyQuestion5: "5- Berko ambalaja kaç puan verirsiniz ?",
-      SurveyComment: "Yorumunuz",
-      SurveyAnswerYes: "Evet",
-      SurveyAnswerNo: "Hayır",
-      SurveyChoose: "Seçenek seçin",
-      SubmitForm: "Gönder",
-      SurveyText:
-        "Firmamızın hizmet kalitesini daha da artırmak ve siz değerli müşterilerimizin ihtiyaçlarına daha iyi cevap verebilmek adına, kısa bir anket düzenliyoruz. Bu anket, sizin deneyimlerinizi anlamamıza ve ürün ve hizmetlerimizi geliştirmemize yardımcı olacaktır.",
-      packageMaterialsText4: `${configs.contactWhatsappNumber} veya ${configs.email2} üzerinden bizimle iletişime geçin. Size en uygun ambalaj çözümlerini bulmamıza yardımcı olmaktan memnuniyet duyarız. İşinizi güçlendirmek ve ürünlerinizi güvenle teslim etmek için Berko yanınızda!`,
-      textileText4: `Herhangi bir sorunuz veya özel talebiniz mi var? ${configs.contactWhatsappNumber} veya ${configs.email2} ile bizimle iletişime geçin. Sizinle birlikte işinizi daha özel ve etkileyici kılmak için sabırsızlanıyoruz!`,
-    },
-  },
   de: {
     translation: {
       hello: "Hallo Welt",
@@ -380,9 +376,7 @@ const resources = {
         "Erschwingliche Preise für Bürobedarf. Textilstifte, Kopierpapier, Scherentypen, Chromkarton, Taschentuchpapier, Ordnerarten",
       ContactInformation: "Kontaktinformation",
       Address: "Oruçreis Mah. Giyimkent 9. Sokak Nr. 72/A Esenler/Istanbul",
-      PhoneNumber1: "0532 012 7185",
-      PhoneNumber2: "0212 630 2904",
-      PhoneNumber3: "0212 630 2915",
+      PhoneNumber1: "0535 216 47 50",
       Email: "satis@berkoambalaj.com",
       FAQ: "Häufig gestellte Fragen",
       ExtraQuestion: "Haben Sie Fragen?",
@@ -563,9 +557,7 @@ const resources = {
         "Доступные цены на канцелярские товары. Текстильные ручки, ксерокопировальная бумага, различные виды ножниц, хромированный картон, тканевая бумага, различные виды папок.",
       ContactInformation: "Контактная информация",
       Address: "Махалле Оруджрейс, улица Гийимкент 9, № 72/A, Эсенлер, Стамбул",
-      PhoneNumber1: "0532 012 7185",
-      PhoneNumber2: "0212 630 2904",
-      PhoneNumber3: "0212 630 2915",
+      PhoneNumber1: "0535 216 47 50",
       Email: "satis@berkoambalaj.com",
       FAQ: "Часто задаваемые вопросы",
       ExtraQuestion: "У вас есть вопросы?",
@@ -744,9 +736,7 @@ const resources = {
         "أسعار معقولة على منتجات القرطاسية. أقلام النسيج، ورق نسخ، أنواع المقصات، كرتون كروم، ورق الحمام، أنواع المجلدات.",
       ContactInformation: "معلومات الاتصال",
       Address: "مح. أوروجريس. 9. جييمكنت 72/A، إسنلر، إسطنبول",
-      PhoneNumber1: "0532 012 7185",
-      PhoneNumber2: "0212 630 2904",
-      PhoneNumber3: "0212 630 2915",
+      PhoneNumber1: "0535 216 47 50",
       Email: "satis@berkoambalaj.com",
       FAQ: "أسئلة شائعة",
       ExtraQuestion: "هل لديك أي أسئلة؟",

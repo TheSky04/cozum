@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Howl } from "howler";
 import EbruGundes from "../music/ebru.mp3";
 import NesetErtas from "../music/tat.mp3";
-import ModernTalking from "../music/modern.mp3"
+import Sagopa from "../music/Baytar.mp3"
 import styles from "../styles/Music.module.css";
 import { FaPlay, FaPause, FaFastBackward, FaFastForward } from "react-icons/fa";
 import { configs } from "../config";
@@ -10,7 +10,7 @@ import { configs } from "../config";
 const songs = [
   { title: "Ebru Gündeş - Yakışıklı", url: EbruGundes },
   { title: "Neşet Ertaş - Tatlı Dile Güler Yüze", url: NesetErtas },
-  { title: "Modern Talking - You're my heart", url: ModernTalking },
+  { title: "Sagopa Kajmer - Baytar", url: Sagopa },
 ];
 
 function Music() {

@@ -42,22 +42,7 @@ function Navbar({ isMobile }) {
           </div>
         </div>
         <div className="navTopCenter">
-          <div className="navTopCenterSocial">
-            <Link to={configs.instagramAdress}>
-              <FaInstagram
-                size={40}
-                color="#fff"
-                className="navTopCenterSocialInstagram"
-              />
-            </Link>
-            <Link to={configs.facebookAdress}>
-              <FaFacebook
-                size={40}
-                color="#fff"
-                className="navTopCenterSocialFacebook"
-              />
-            </Link>
-          </div>
+         
         </div>
       </div>
       <nav className="nav">
